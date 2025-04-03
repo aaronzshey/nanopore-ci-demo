@@ -23,7 +23,7 @@ jobs:
       run: |
         pip install -r requirements.txt || echo "No requirements file"
       
-    - name: Run hello.py and check output
+    - name: Run tests for create_spreadsheets.py
       run: |
          pip install pytest
          pytest testcreate_spreadsheets.py
