@@ -1,0 +1,17 @@
+sequencing_set_path,plate,barcode_num,reference_path
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode23,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/barcode23.final.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode23,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/human_mouse_hybrid_ref.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode42,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/barcode42.final.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode42,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/human_mouse_hybrid_ref.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode54,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/barcode54.final.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode54,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/human_mouse_hybrid_ref.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode55,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/barcode55.final.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode55,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/cat_dog_hybrid_ref.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode56,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/barcode56.final.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode56,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/cat_dog_hybrid_ref.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode90,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/barcode90.final.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode90,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/cat_dog_hybrid_ref.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode91,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/barcode91.final.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode91,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/bigpileofsheepwool.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode92,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/barcode92.final.fasta
+/global/home/groups/fc_fpsdnaseq/test_id,plate1,barcode92,/global/home/groups/fc_fpsdnaseq/test_id/reference_fastas/second_eye_plasmid.fasta
