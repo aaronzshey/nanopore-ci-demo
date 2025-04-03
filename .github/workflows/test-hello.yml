@@ -1,0 +1,30 @@
+name: Test Hello World
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.x  # Specify your Python version (e.g., 3.9)
+
+    - name: Install dependencies (if needed)
+      run: |
+        pip install -r requirements.txt || echo "No requirements file"
+      
+    - name: Run hello.py and check output
+      run: |
+        output=$(python hello.py)
+        echo "$output"
+        [[ "$output" == "Hello, World!" ]]
