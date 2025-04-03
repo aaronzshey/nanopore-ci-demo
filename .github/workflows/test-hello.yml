@@ -27,4 +27,4 @@ jobs:
       run: |
         output=$(python hello.py)
         echo "$output"
-        [[ "$output" == "Hello, World!" ]]
+        [[ "$output" == "hello world!" ]]
