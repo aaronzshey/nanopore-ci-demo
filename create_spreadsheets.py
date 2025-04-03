@@ -48,7 +48,7 @@ def append_to_csv(df, file_name):
     df.to_csv(file_name, mode='a', header=False, index=False)
 
 def process_data(data, global_path, size_name, metadata_name, sample_name):
-    for index, row in data.iterrows():
+    for _index, row in data.iterrows():
         # Add the leading zero
         barcode_num_padded = "barcode" + str(row['barcode']).zfill(2)
 
@@ -124,5 +124,10 @@ def main(run_id):
     process_data(data, global_path, size_name, metadata_name, sample_name)
 
 if __name__ == "__main__":
-    run_id = (sys.argv[1] if len(sys.argv) > 1 else "1234567890")
+    run_id = sys.argv[1]
+
+    if not run_id:
+        print("Please provide a run ID.")
+        sys.exit()
+        
     main(run_id)

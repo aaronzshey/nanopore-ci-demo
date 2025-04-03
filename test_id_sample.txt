@@ -1,0 +1,9 @@
+name,plate,barcode_num,return_type,sample
+John Doe,plate1,barcode23,5µL,helix_1
+John Doe,plate1,barcode42,5µL,helix_1
+John Doe,plate1,barcode54,5µL,helix_1
+Jane Doe,plate1,barcode55,5µL,epigene_23
+Jane Doe,plate1,barcode56,5µL,epigene_23
+Jane Doe,plate1,barcode90,5µL,epigene_23
+Anonymous,plate1,barcode91,5µL,illuminaseq_32
+Cyclops,plate1,barcode92,5µL,qwertyuiop
