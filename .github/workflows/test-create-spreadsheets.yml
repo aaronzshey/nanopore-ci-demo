@@ -26,6 +26,6 @@ jobs:
       
     - name: Run tests for create_spreadsheets.py
       run: |
-         cd testss
+         cd tests
          pip install pytest
          pytest testcreate_spreadsheets.py
