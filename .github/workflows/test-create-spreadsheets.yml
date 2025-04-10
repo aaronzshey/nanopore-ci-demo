@@ -18,6 +18,9 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: 3.x  # Specify your Python version (e.g., 3.9)
+    
+    - name: Navigate to tests directory
+      run: cd tests
 
     - name: Install dependencies (if needed)
       run: |
