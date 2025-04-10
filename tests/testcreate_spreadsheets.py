@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-from create_spreadsheets import find_sheet_with_id, create_empty_dataframes, append_to_csv, process_data
+from ..create_spreadsheets import find_sheet_with_id, create_empty_dataframes, append_to_csv, process_data
 
 @pytest.fixture
 def setup_variables():
